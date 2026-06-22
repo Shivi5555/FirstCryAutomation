@@ -1,0 +1,15 @@
+target/
+.allure/
+allure-results/
+allure-report/
+
+.classpath
+.project
+.settings/
+
+*.log
+*.tmp
+.DS_Store
+
+.idea/
+*.iml

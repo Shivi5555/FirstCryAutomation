@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-22T19:40:58 IST" name="Default suite" finished-at="2026-06-22T19:42:37 IST" duration-ms="99530">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@4678a2eb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-06-22T19:40:58 IST" name="Default test" finished-at="2026-06-22T19:42:37 IST" duration-ms="99530">
+      <class name="cucumberOptions.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestRunner@4678a2eb]" started-at="2026-06-22T19:40:58 IST" name="setUpClass" finished-at="2026-06-22T19:40:58 IST" duration-ms="695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@31e72cbc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@4678a2eb]" started-at="2026-06-22T19:40:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-06-22T19:42:28 IST" duration-ms="89188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Apply price low to high filter on Frocks and Dresses"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["FirstCry Filter By Price"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@4678a2eb]" started-at="2026-06-22T19:40:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-06-22T19:41:57 IST" duration-ms="58415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to Girls Fashion and select Frocks and Dresses"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["FirstCry Girls Fashion Navigation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@4678a2eb]" started-at="2026-06-22T19:40:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-06-22T19:42:37 IST" duration-ms="98723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Apply pink colour filter after price low to high filter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["FirstCry Filter By Colour Pink"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@4678a2eb]" started-at="2026-06-22T19:42:37 IST" name="tearDownClass" finished-at="2026-06-22T19:42:37 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
